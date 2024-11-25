@@ -1,0 +1,1 @@
+2024/11/24 21:08:17 [error] 202#202: *1687 connect() failed (111: Connection refused) while connecting to upstream, client: 102.89.32.161, server: db.devobs.me, request: "GET / HTTP/2.0", upstream: "http://172.18.0.4:8080/", host: "db.devobs.me", referrer: ""

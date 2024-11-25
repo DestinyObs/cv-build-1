@@ -16,5 +16,8 @@ COPY . .
 # Build the app for production
 RUN npm run build
 
+#Expose port
+EXPOSE 5173
+
 # Start the app using the Vite preview command
 CMD npm run dev -- --host 0.0.0.0

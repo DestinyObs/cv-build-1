@@ -1,0 +1,274 @@
+2024/11/24 17:01:44 [alert] 176#176: 512 worker_connections are not enough
+2024/11/24 17:01:44 [error] 176#176: *508 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "www.devobs.me"
+2024/11/24 17:01:45 [error] 176#176: *510 open() "/var/www/html/ads.txt" failed (2: No such file or directory), client: 51.159.103.22, server: localhost-nginx-proxy-manager, request: "GET /ads.txt HTTP/1.1", host: "www.devobs.me"
+2024/11/24 17:01:45 [error] 176#176: *511 open() "/var/www/html/app-ads.txt" failed (2: No such file or directory), client: 51.159.103.22, server: localhost-nginx-proxy-manager, request: "GET /app-ads.txt HTTP/1.1", host: "www.devobs.me"
+2024/11/24 17:01:46 [error] 176#176: *512 open() "/var/www/html/sellers.json" failed (2: No such file or directory), client: 51.159.103.22, server: localhost-nginx-proxy-manager, request: "GET /sellers.json HTTP/1.1", host: "www.devobs.me"
+2024/11/24 17:36:15 [warn] 168#168: 512 worker_connections are not enough, reusing connections
+2024/11/24 17:36:15 [alert] 168#168: 512 worker_connections are not enough
+2024/11/24 17:36:15 [error] 168#168: *506 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.209.89.10", referrer: "http://34.209.89.10/"
+2024/11/24 18:10:48 [warn] 242#242: 512 worker_connections are not enough, reusing connections
+2024/11/24 18:10:48 [alert] 242#242: *1213 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.209.89.10", referrer: "http://34.209.89.10/"
+2024/11/24 18:40:08 [error] 252#252: *1508 open() "/var/www/html/grafana" failed (2: No such file or directory), client: 105.112.199.135, server: localhost-nginx-proxy-manager, request: "GET /grafana HTTP/1.1", host: "34.209.89.10"
+2024/11/24 18:40:09 [warn] 252#252: 512 worker_connections are not enough, reusing connections
+2024/11/24 18:40:09 [alert] 252#252: 512 worker_connections are not enough
+2024/11/24 18:40:09 [error] 252#252: *2012 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.209.89.10", referrer: "http://34.209.89.10/grafana"
+2024/11/24 19:28:15 [error] 168#168: *9 open() "/var/www/html/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3" failed (2: No such file or directory), client: 2.57.122.161, server: localhost-nginx-proxy-manager, request: "GET /3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3 HTTP/1.1", host: "34.219.79.172"
+2024/11/24 20:12:21 [warn] 168#168: 512 worker_connections are not enough, reusing connections
+2024/11/24 20:12:21 [alert] 168#168: 512 worker_connections are not enough
+2024/11/24 20:12:21 [error] 168#168: *512 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70/"
+2024/11/24 20:56:27 [warn] 168#168: 512 worker_connections are not enough, reusing connections
+2024/11/24 20:56:27 [alert] 168#168: 512 worker_connections are not enough
+2024/11/24 20:56:27 [error] 168#168: *1112 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70/"
+2024/11/24 20:59:45 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 20:59:45 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:07:56 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:07:56 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:07:56 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:07:56 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:07:56 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:07:56 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:10:50 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:10:50 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:10:50 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:10:50 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:10:50 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:10:50 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:11:37 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:11:37 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:11:37 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:12:57 [error] 222#222: *1815 open() "/var/www/html/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:57 [error] 222#222: *1815 open() "/var/www/html/mappings.json" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /mappings.json HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:57 [error] 222#222: *1815 open() "/var/www/html/env.json" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /env.json HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:57 [error] 222#222: *1815 "/var/www/html/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:58 [error] 222#222: *1815 open() "/var/www/html/actuator/mappings" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/mappings HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:58 [error] 222#222: *1815 open() "/var/www/html/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:58 [error] 222#222: *1815 "/var/www/html/api/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /api/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:12:59 [error] 222#222: *1815 open() "/var/www/html/api/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /api/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:00 [error] 222#222: *1815 "/var/www/html/management/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/ HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:00 [error] 222#222: *1815 open() "/var/www/html/management/mappings" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/mappings HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:00 [error] 222#222: *1815 open() "/var/www/html/management/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:01 [error] 222#222: *1815 "/var/www/html/dev/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:01 [error] 222#222: *1815 open() "/var/www/html/dev/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:01 [error] 222#222: *1815 open() "/var/www/html/dev/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:01 [error] 222#222: *1815 open() "/var/www/html/app/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:01 [error] 222#222: *1815 "/var/www/html/app/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:13:02 [error] 222#222: *1815 open() "/var/www/html/app/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:16:40 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:16:40 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:16:40 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:20:57 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:20:57 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:20:57 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:21:05 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:21:05 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:21:05 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:21:47 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:21:47 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/24 21:21:47 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:23:24 [warn] 147#147: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:23:24 [warn] 147#147: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/24 21:23:24 [warn] 147#147: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/24 21:26:03 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:26:11 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:26:11 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:26:17 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:27:37 [error] 266#266: wrong ident 48803 in DNS response for frontend, expect 35478
+2024/11/24 21:27:56 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:05 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:07 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:07 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:08 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:08 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:13 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:14 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:15 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:15 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:15 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:16 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:16 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:17 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:17 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:17 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:28:18 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:40:41 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:40:41 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:40:48 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 21:40:48 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 22:21:03 [error] 266#266: unexpected DNS response for frontend
+2024/11/24 22:21:03 [error] 266#266: unexpected DNS response for frontend
+2024/11/25 03:53:09 [error] 266#266: *2626 "/var/www/html/webui/index.html" is not found (2: No such file or directory), client: 65.49.1.104, server: localhost-nginx-proxy-manager, request: "GET /webui/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 03:54:24 [alert] 266#266: *3129 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70"
+2024/11/25 03:55:11 [error] 266#266: *3133 "/var/www/html/geoserver/web/index.html" is not found (2: No such file or directory), client: 65.49.1.104, server: localhost-nginx-proxy-manager, request: "GET /geoserver/web/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:46 [error] 266#266: *3144 open() "/var/www/html/public/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /public/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:47 [error] 266#266: *3144 open() "/var/www/html/laravel/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /laravel/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:47 [error] 266#266: *3144 open() "/var/www/html/infophp.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /infophp.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:48 [error] 266#266: *3144 open() "/var/www/html/php_info.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /php_info.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:48 [error] 266#266: *3144 open() "/var/www/html/test.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /test.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:49 [error] 266#266: *3144 open() "/var/www/html/i.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /i.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:49 [error] 266#266: *3144 open() "/var/www/html/asdf.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /asdf.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:49 [error] 266#266: *3144 open() "/var/www/html/pinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /pinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:50 [error] 266#266: *3144 open() "/var/www/html/phpversion.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpversion.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:51 [error] 266#266: *3144 open() "/var/www/html/time.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /time.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:52 [error] 266#266: *3144 open() "/var/www/html/temp.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /temp.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:52 [error] 266#266: *3144 open() "/var/www/html/old_phpinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /old_phpinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:52 [error] 266#266: *3144 open() "/var/www/html/infos.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /infos.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:52 [error] 266#266: *3144 open() "/var/www/html/linusadmin-phpinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /linusadmin-phpinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:53 [error] 266#266: *3144 open() "/var/www/html/php-info.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /php-info.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:53 [error] 266#266: *3144 open() "/var/www/html/dashboard/phpinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /dashboard/phpinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:54 [error] 266#266: *3144 open() "/var/www/html/phpinfo.php3" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php3 HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:54 [error] 266#266: *3144 open() "/var/www/html/phpinfo.php4" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php4 HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:54 [error] 266#266: *3144 open() "/var/www/html/phpinfo.php5" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php5 HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:54 [error] 266#266: *3144 open() "/var/www/html/phpinfos.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfos.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:55 [error] 266#266: *3144 open() "/var/www/html/_profiler/phpinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /_profiler/phpinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:55 [error] 266#266: *3144 open() "/var/www/html/laravel/core/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /laravel/core/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:55 [error] 266#266: *3144 open() "/var/www/html/beta/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /beta/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:55 [error] 266#266: *3144 open() "/var/www/html/kyc/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /kyc/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:56 [error] 266#266: *3144 open() "/var/www/html/admin/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /admin/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:57 [error] 266#266: *3144 open() "/var/www/html/prod/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /prod/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:57 [error] 266#266: *3144 open() "/var/www/html/api/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /api/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:57 [error] 266#266: *3144 open() "/var/www/html/.docker/laravel/app/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.docker/laravel/app/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:58 [error] 266#266: *3144 open() "/var/www/html/.docker/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.docker/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:58 [error] 266#266: *3144 open() "/var/www/html/.gitlab-ci/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.gitlab-ci/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:58 [error] 266#266: *3144 open() "/var/www/html/.vscode/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.vscode/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:59 [error] 266#266: *3144 open() "/var/www/html/web/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /web/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:01:59 [error] 266#266: *3144 open() "/var/www/html/app/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /app/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:00 [error] 266#266: *3144 open() "/var/www/html/crm/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /crm/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:01 [error] 266#266: *3144 open() "/var/www/html/backend/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /backend/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:01 [error] 266#266: *3144 open() "/var/www/html/local/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /local/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:03 [error] 266#266: *3144 open() "/var/www/html/application/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /application/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:03 [error] 266#266: *3144 open() "/var/www/html/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:03 [error] 266#266: *3144 open() "/var/www/html/live_env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /live_env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:04 [error] 266#266: *3144 open() "/var/www/html/admin-app/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /admin-app/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:04 [error] 266#266: *3144 open() "/var/www/html/mailer/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /mailer/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:04 [error] 266#266: *3144 open() "/var/www/html/laravel/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /laravel/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:05 [error] 266#266: *3144 open() "/var/www/html/shared/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /shared/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:05 [error] 266#266: *3144 open() "/var/www/html/.env.project" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.project HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:06 [error] 266#266: *3144 open() "/var/www/html/apps/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /apps/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:07 [error] 266#266: *3144 open() "/var/www/html/development/.env" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /development/.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:07 [error] 266#266: *3144 open() "/var/www/html/public/client/planinfo" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /public/client/planinfo HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:07 [error] 266#266: *3144 open() "/var/www/html/_profiler/phpinfo" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /_profiler/phpinfo HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:08 [error] 266#266: *3144 open() "/var/www/html/phpinfo.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:08 [error] 266#266: *3144 open() "/var/www/html/info.php" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /info.php HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:08 [error] 266#266: *3144 open() "/var/www/html/aws.yml" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /aws.yml HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:09 [error] 266#266: *3144 open() "/var/www/html/.env.bak" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.bak HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:09 [error] 266#266: *3144 open() "/var/www/html/.env.config" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.config HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:10 [error] 266#266: *3144 open() "/var/www/html/.env.bak" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.bak HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:10 [error] 266#266: *3144 open() "/var/www/html/.env-example" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env-example HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:10 [error] 266#266: *3144 open() "/var/www/html/.env-sample" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env-sample HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:10 [error] 266#266: *3144 open() "/var/www/html/.env.backup" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.backup HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:11 [error] 266#266: *3144 open() "/var/www/html/.env.dev" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.dev HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:11 [error] 266#266: *3144 open() "/var/www/html/.env.dev.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.dev.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:11 [error] 266#266: *3144 open() "/var/www/html/.env.development.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.development.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:12 [error] 266#266: *3144 open() "/var/www/html/.env.development.sample" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.development.sample HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:12 [error] 266#266: *3144 open() "/var/www/html/.env.dist" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.dist HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:13 [error] 266#266: *3144 open() "/var/www/html/.env.docker" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.docker HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:14 [error] 266#266: *3144 open() "/var/www/html/.env.docker.dev" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.docker.dev HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:14 [error] 266#266: *3144 open() "/var/www/html/.env.example" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.example HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:14 [error] 266#266: *3144 open() "/var/www/html/.env.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:14 [error] 266#266: *3144 open() "/var/www/html/.env.prod" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.prod HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:14 [error] 266#266: *3144 open() "/var/www/html/.env.prod.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.prod.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:15 [error] 266#266: *3144 open() "/var/www/html/.env.production" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.production HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:15 [error] 266#266: *3144 open() "/var/www/html/.env.production.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.production.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:16 [error] 266#266: *3144 open() "/var/www/html/.env.sample" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.sample HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:16 [error] 266#266: *3144 open() "/var/www/html/.env.save" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.save HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:16 [error] 266#266: *3144 open() "/var/www/html/.env.stage" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.stage HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:17 [error] 266#266: *3144 open() "/var/www/html/.env.travis" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env.travis HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:17 [error] 266#266: *3144 open() "/var/www/html/.envrc" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.envrc HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:18 [error] 266#266: *3144 open() "/var/www/html/.envs" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.envs HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:18 [error] 266#266: *3144 open() "/var/www/html/.env~" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.env~ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:18 [error] 266#266: *3144 open() "/var/www/html/config/aws.yml" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /config/aws.yml HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:19 [error] 266#266: *3144 open() "/var/www/html/symfony/_profiler/phpinfo" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /symfony/_profiler/phpinfo HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:19 [error] 266#266: *3144 open() "/var/www/html/phpinfo" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /phpinfo HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:20 [error] 266#266: *3144 open() "/var/www/html/.remote" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.remote HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:20 [error] 266#266: *3144 open() "/var/www/html/.local" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.local HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:20 [error] 266#266: *3144 open() "/var/www/html/.production" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.production HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:21 [error] 266#266: *3144 open() "/var/www/html/login" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /login?pp=enable&pp=env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:22 [error] 266#266: *3144 open() "/var/www/html/.aws/config" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.aws/config HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:23 [error] 266#266: *3144 open() "/var/www/html/.aws/credentials" failed (2: No such file or directory), client: 194.146.12.252, server: localhost-nginx-proxy-manager, request: "GET /.aws/credentials HTTP/1.1", host: "35.88.141.70"
+2024/11/25 06:02:24 [alert] 266#266: *3646 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /config.js HTTP/1.1", upstream: "http://127.0.0.1:80/config.js", host: "35.88.141.70"
+2024/11/25 07:36:04 [error] 266#266: *3653 open() "/var/www/html/GponForm/diag_Form" failed (2: No such file or directory), client: 117.204.126.40, server: localhost-nginx-proxy-manager, request: "POST /GponForm/diag_Form?images/ HTTP/1.1", host: "127.0.0.1:80"
+2024/11/25 08:58:43 [error] 266#266: *3681 open() "/var/www/html/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:43 [error] 266#266: *3681 open() "/var/www/html/mappings.json" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /mappings.json HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:44 [error] 266#266: *3681 open() "/var/www/html/env.json" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /env.json HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:44 [error] 266#266: *3681 "/var/www/html/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:44 [error] 266#266: *3681 open() "/var/www/html/actuator/mappings" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/mappings HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:44 [error] 266#266: *3681 open() "/var/www/html/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:45 [error] 266#266: *3681 "/var/www/html/api/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /api/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:45 [error] 266#266: *3681 open() "/var/www/html/api/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /api/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:45 [error] 266#266: *3681 "/var/www/html/management/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:45 [error] 266#266: *3681 open() "/var/www/html/management/mappings" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/mappings HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:45 [error] 266#266: *3681 open() "/var/www/html/management/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /management/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:46 [error] 266#266: *3681 "/var/www/html/dev/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:46 [error] 266#266: *3681 open() "/var/www/html/dev/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:46 [error] 266#266: *3681 open() "/var/www/html/dev/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /dev/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:46 [error] 266#266: *3681 open() "/var/www/html/app/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:46 [error] 266#266: *3681 "/var/www/html/app/actuator/index.html" is not found (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/actuator/ HTTP/1.1", host: "35.88.141.70"
+2024/11/25 08:58:47 [error] 266#266: *3681 open() "/var/www/html/app/actuator/env" failed (2: No such file or directory), client: 103.129.149.19, server: localhost-nginx-proxy-manager, request: "GET /app/actuator/env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 09:42:55 [alert] 266#266: *4192 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "cvbuild.devobs.me"
+2024/11/25 10:33:42 [error] 266#266: *4214 open() "/var/www/html/GponForm/diag_Form" failed (2: No such file or directory), client: 45.51.173.135, server: localhost-nginx-proxy-manager, request: "POST /GponForm/diag_Form?images/ HTTP/1.1", host: "127.0.0.1:80"
+2024/11/25 10:40:44 [alert] 266#266: *4718 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70"
+2024/11/25 14:02:01 [error] 266#266: *4771 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 14:48:52 [alert] 266#266: 512 worker_connections are not enough
+2024/11/25 14:48:52 [error] 266#266: *5299 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70/"
+2024/11/25 14:51:22 [error] 266#266: *5304 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 15:07:50 [warn] 266#266: 512 worker_connections are not enough, reusing connections
+2024/11/25 15:07:51 [alert] 266#266: *5810 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70/"
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:19
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/2.conf:20
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:19
+2024/11/25 15:37:05 [warn] 151#151: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/3.conf:19
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/3.conf:20
+2024/11/25 15:37:05 [warn] 151#151: protocol options redefined for [::]:443 in /data/nginx/proxy_host/3.conf:20
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:19
+2024/11/25 15:37:05 [warn] 151#151: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/5.conf:20
+2024/11/25 15:53:37 [warn] 196#196: 512 worker_connections are not enough, reusing connections
+2024/11/25 15:53:37 [alert] 196#196: 512 worker_connections are not enough
+2024/11/25 15:53:37 [error] 196#196: *1188 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "35.88.141.70", referrer: "http://35.88.141.70/"
+2024/11/25 15:53:44 [warn] 196#196: 512 worker_connections are not enough, reusing connections
+2024/11/25 18:20:59 [error] 172#172: *924 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 19:37:07 [error] 172#172: *1873 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
+2024/11/25 19:41:41 [warn] 172#172: 512 worker_connections are not enough, reusing connections
+2024/11/25 19:41:41 [alert] 172#172: *2465 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET //maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css HTTP/1.1", upstream: "http://127.0.0.1:80//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css", host: "35.88.141.70"
+2024/11/25 20:00:04 [error] 172#172: *2879 open() "/var/www/html/.env" failed (2: No such file or directory), client: 51.161.80.229, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "35.88.141.70"
