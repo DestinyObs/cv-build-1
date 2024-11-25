@@ -231,3 +231,4 @@
 [25/Nov/2024:20:00:05 +0000] 405 - POST http 35.88.141.70 "/" [Client 51.161.80.229] [Length 556] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" "-"
 [25/Nov/2024:20:01:23 +0000] 200 - GET http 35.88.141.70 "/" [Client 45.33.109.18] [Length 568] [Gzip 1.86] "Mozilla/5.0 zgrab/0.x" "-"
 [25/Nov/2024:20:01:34 +0000] 200 - GET http 35.88.141.70 "/" [Client 45.79.181.251] [Length 568] [Gzip 1.86] "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "-"
+[25/Nov/2024:20:29:00 +0000] 200 - GET http localhost-nginx-proxy-manager "/" [Client 5.8.11.202] [Length 1033] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" "-"
