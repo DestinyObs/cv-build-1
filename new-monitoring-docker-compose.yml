@@ -31,7 +31,7 @@ services:
       - "9090:9090"
     restart: unless-stopped
     volumes:
-      - ./prometheus:/etc/prometheus 
+      - ./prometheus:/etc/prometheus
       - prom_data:/prometheus
     depends_on:
       - cadvisor
@@ -54,7 +54,7 @@ services:
   loki:
     image: grafana/loki:3.0.0
     container_name: loki
-    user: "10001"
+    user: "root"
     volumes:
       - ./loki-config.yaml:/mnt/config/loki-config.yaml
       - ./data:/tmp/loki
@@ -82,4 +82,5 @@ volumes:
 
 networks:
   app-network:
+    driver: bridge
     external: true
